@@ -18,7 +18,7 @@ pipeline {
               steps {
                    dir("backend-master"){
                       sh "mvn clean install"
-                      sh "docker build -t springbakend ."
+                      sh "docker build -t backend ."
                   }                
               }
           }
